@@ -1,34 +1,33 @@
 ![Keybase Issues](img/robot.jpg "Keybase Issues")
 
-### First, security bugs
+## Client-side (app) bugs:
+
+If you've installed Keybase on your desktop, run:
+
+```bash
+keybase log send
+```
+
+and follow the instructions. If you're on a mobile device, please just post to [client issue tracker](https://github.com/keybase/client/issues).
+
+## Serious security bugs
 
 If you are aware of a security bug (or have a proposal/implemention of a "zero day" attack), notifying us privately is in the interest of all users. We can then discuss it post-mortem. To reach us privately, please get our public keys here:
 
   - https://keybase.io/max
   - https://keybase.io/chris
   
-You can import our keys to GPG - and verify our Keybase.io admin status - with `keybase track max` and `keybase track chris`.
+You can import our keys to GPG with `keybase pgp pull max` and `keybase pgp pull chris`.
 
-### Other bugs, issues, comments, questions, and suggestions
+## Everything else, including website bugs, ideas and suggestions
 
-There's an [issues tab](https://github.com/keybase/keybase-issues/issues) in the right margin of this page. The direct link:
-
-  - https://github.com/keybase/keybase-issues/issues
-
-We appreciate comments, questions, feature requests, etc.
-
-Keybase has a few repos (see below), and we can't expect you to know where to post issues. So post everything here. We'll tag and organize it all.
+There's an [issues tab](https://github.com/keybase/keybase-issues/issues) on this page.
 
 ### If you'd like to review our code
 
 We'd like that too.
 
-  * https://github.com/keybase/node-client - the command line client
-  * https://github.com/keybase/node-installer - the installer for the command line client
-  * https://github.com/keybase/gpg-wrapper - library for communicating with GPG's CLI
-  * https://github.com/keybase/pgp-utils - crypto utilities for dealing with MACs, Signatures, and PGP message formats.
-  * https://github.com/keybase/kbpgp - Our implementation of PGP
-  * https://github.com/keybase/proofs - Shared code for generating and validating key proofs.
+  * https://github.com/keybase/client - the client for all platforms
 
 #### Hall-of-fame Bugfinders
 
@@ -37,7 +36,4 @@ We'd like that too.
   * [Leigh](https://keybase.io/lt)
 
 
-#### Thanks!
-
-  - https://keybase.io/max
-  - https://keybase.io/chris
+Thanks!
